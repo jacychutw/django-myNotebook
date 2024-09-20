@@ -1,1 +1,1 @@
-web: gunicorn django-myNotebook.wsgi --log-file -
+web: gunicorn myNotebook.wsgi --log-file -
