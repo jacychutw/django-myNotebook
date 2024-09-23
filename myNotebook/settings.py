@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'myNotebook.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django-myNotebook-db',
+        'NAME': 'django_mynotebook_db',
         'USER': 'django_mynotebook_db_user',
         'PASSWORD': '7UK5kk5VqXwwIjsSs9KvjyENQHeKkDzz',
         'HOST': 'dpg-crodlk56l47c73fmtvs0-a',
