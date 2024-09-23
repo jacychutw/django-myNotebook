@@ -80,12 +80,24 @@ WSGI_APPLICATION = 'myNotebook.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',  # Supabase 创建的默认数据库名
+        'USER': 'postgres.qgwfjficccgamdofziub',  # 默认用户
+        'PASSWORD': 'dEBGVqZetTTXba7w',
+        'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',  # 形式类似于 db.project-id.supabase.co
+        'PORT': '6543',
     }
 }
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
