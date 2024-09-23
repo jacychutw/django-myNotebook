@@ -1,6 +1,6 @@
 
 # 英文學習筆記網站
-> 整合Django, SQLite, Vue JS實作一個學習筆記本<br>
+> 整合Django, Vue JS實作一個學習筆記本<br>
 > 此為Django後端開發部分。<br>
 
 📝 &nbsp; 相關文件：
